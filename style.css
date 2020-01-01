@@ -8,4 +8,15 @@ Template: oceanwp
 Version: 1.0
 */
 
+@font-face {
+  font-family: 'Byekan';
+  src: url('https://omdebazaar.com/wp-content/themes/oceanwp/oceanwp-child-theme/fonts/Byekan-Rgular.ttf'); format('truetype')
+   src: url('https://omdebazaar.com/wp-content/themes/oceanwp/oceanwp-child-theme/fonts/Byekan-Rgular.woff'); format('woff')
+   src: url('https://omdebazaar.com/wp-content/themes/oceanwp/oceanwp-child-theme/fonts/Byekan-Rgular.eot'); format('eot')
+  font-weight: normal;
+}
+body {
+  font-family: 'Byekan';
+}
+
 /* Parent stylesheet should be loaded from functions.php not using @import */
